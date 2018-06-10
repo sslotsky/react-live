@@ -4,6 +4,12 @@
     "react"
   ],
   "plugins": [
+    ["prismjs", {
+      "languages": ["clike", "javascript", "markup", "jsx", "reason"],
+      "plugins": ["line-numbers"],
+      "theme": "twilight",
+      "css": true
+    }],
     "add-module-exports",
     "transform-object-rest-spread",
     "transform-class-properties",
